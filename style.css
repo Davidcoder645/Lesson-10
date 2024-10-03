@@ -1,0 +1,49 @@
+body{
+    background-color: Blue;
+    color:brown;
+}
+
+hi{
+    Color: Green
+}
+
+/* Attribute Selector*/
+a {
+    color:aquamarine
+}
+
+a:hover{
+    color:rgb(172, 216, 132)
+}
+
+/* Child Selector */
+ul > li{
+color:blue;
+font-weight: bold;
+}
+
+/*Sibling Selector*/
+h1+p{
+    background-color:black;
+}
+
+/* Pesudo Class*/
+ul li:hover{
+    background-color:brown;
+}
+
+/* ::before Pesudo Element*/
+ul li::before{
+    content:
+    url('https://api.iconify.design/bi/file-fill.svg?height=12&color=green')    
+}
+/* ::after Pesudo Element*/
+a::after{
+    content:
+ url('https//api.iconif.design/bi/cube-fill.svg?height=12&color=green')
+}
+/* ::first-letter Pesudo Element */
+p::first-letter{
+    font-size: 200%;
+    color:brown
+}
